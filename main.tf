@@ -6,5 +6,3 @@ module "test-module" {
 output "testing" {
     value = "My name is: ${module.test-module.my_name}"
 }
-
-resource "terraform-variables" "testing" {}
