@@ -1,8 +1,3 @@
-module "test-module" {
-    source = "./test-module"
-    my_name = "Stacy"
-}
-
-output "testing" {
-    value = "My name is: ${module.test-module.my_name}"
+output "welcome" {
+    value = "My name is: ${var.my_name}"
 }

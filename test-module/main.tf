@@ -1,3 +1,0 @@
-output "random" {
-    value = "lkjsdf"
-}

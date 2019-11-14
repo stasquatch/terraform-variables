@@ -1,5 +1,5 @@
 variable "my_name" {
     type = "string"
-    description = "The name I give myself"
+    description = "the name i give myself"
     default = "Anon"
 }
