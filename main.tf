@@ -1,3 +1,3 @@
 output "welcome" {
-    value = "My name is: ${var.my_name}"
+    value = "My new name is: ${var.my_name}"
 }
