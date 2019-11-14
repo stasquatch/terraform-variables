@@ -1,12 +1,8 @@
-resource "random_string" "id" {
-  keepers = {
-      uuid = uuid()
-  }
-
-  length = 2
-  my_name = "Boo Higgins"
+resource "random_pet" "pet" {
+  length = var.pet_name_length
+  separator = var.chosen_separator
 }
 
-output "welcome" {
-    value = "My new name is: ${var.my_name}"
+output "tell_me_my_pets_name" {
+  value = "c'mon ${random_pet.pet.id}"
 }
