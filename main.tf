@@ -4,5 +4,5 @@ resource "random_pet" "pet" {
 }
 
 output "tell_me_my_pets_name" {
-  value = "c'mon ${random_pet.pet.id}"
+  value = "c'mon ${var.TF_VAR_prefix} ${random_pet.pet.id}"
 }
