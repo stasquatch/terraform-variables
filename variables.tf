@@ -5,7 +5,7 @@ variable "pet_name_length" {
 }
 
 variable "chosen_separator" {
-    type = "string"
+    type = string
     description = "the delimiter of your pet's name"
     default = " "
 }
