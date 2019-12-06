@@ -9,3 +9,7 @@ variable "chosen_separator" {
     description = "the delimiter of your pet's name"
     default = " "
 }
+
+variable "TF_VAR_prefix" {
+    type = string
+}
