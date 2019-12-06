@@ -10,6 +10,6 @@ variable "chosen_separator" {
     default = " "
 }
 
-variable "TF_VAR_prefix" {
+variable "prefix" {
     type = string
 }
