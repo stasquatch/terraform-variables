@@ -1,7 +1,7 @@
 variable "pet_name_length" {
     type = number
     description = "the number of words in your pet's name"
-    default = 2
+    default = 4
 }
 
 variable "chosen_separator" {
