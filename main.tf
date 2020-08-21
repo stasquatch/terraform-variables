@@ -7,7 +7,7 @@ resource "random_pet" "pet" {
 }
 
 output "tell_me_my_pets_name" {
-  value = "c'mon ${var.prefix} ${random_pet.pet.id}, let's go"
+  value = "c'mon ${var.prefix} ${random_pet.pet.id}, let's go home"
 }
 
 output "what_my_friends_say" {
